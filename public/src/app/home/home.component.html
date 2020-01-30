@@ -7,6 +7,18 @@
     <title>Angles 5000</title>
 </head>
 <body>
-    <h1>Home Works</h1>
+    <div class="header">
+        <img id="logo" src="../../assets/img/logo2.png">
+        <div id="links">
+            <button class="page-link" (click)="goToDestination('home')">BOOKING + PRICING</button>
+            <button class="page-link" (click)="goToDestination('about')">STYLISTS</button>
+            <button class="page-link" dest="projects" (click)="goToDestination('projects')">GALLERY</button>
+            <button class="page-link" dest="contact" (click)="goToDestination('contact')">CONTACT US</button>
+        </div>
+        <div id="top_right">
+        <p id="name">Scotts Valley, CA</p> 
+        <p id="number">(831) 438-0431</p>
+        </div>
+    </div>
 </body>
 </html>
