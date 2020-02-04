@@ -1,4 +1,13 @@
 
+*{
+    border:1px solid black;
+}
+body {
+    background-color: #fff;
+    color: #737373;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 button{
     background-color:transparent;
     padding:1px 1px;
@@ -6,17 +15,21 @@ button{
     transition:0.5s;
     margin-top: 2%;
     border-color: transparent;
+    display: inline-block;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-left:5%;
 }
 button:hover{
-    background-color:white;
-    color:rgb(0, 109, 139);
+    background-color:transparent;
+    color:rgb(182, 180, 91);
     border-color: transparent;
+}
+#center_body{
+    width:80%;
+    height: 80%;
+    margin: 2% 15% 2% 10%;
 }
 .header{
     height:10%;
-    border-bottom:1px solid black;
 }
 #logo{
     width:15%;
@@ -44,14 +57,78 @@ p{
 .page-link{
     vertical-align: top;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 8%;
+    font-size:1.8vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 #links{
         position: fixed;
-        right:12vh;
-        top:1%;
+        left:25%;
+        top:2%;
         display: inline-block;
-        width:70%;
+        width:50%;
+        z-index:1000;
+}
+#carouselExampleSlidesOnly{
+    width:90%;
+    height: 80%;
+    margin: 2% 10% 2% 5%;
+}
+#tagline{
+    margin:1% 10% 1% 10%;
+    display:inline-block;
+    font-family: Arial,sans-serif;
+    font-weight: 400;
+    font-size: 4VH;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    text-transform: none;
+    font-family: brandon-grotesque;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 1.4em;
+    letter-spacing: .25em;
+    color: #222;
+    margin-top:5%;
+
+}
+#tagline_div{
+    width:100%;
+}
+
+#block{
+    width:20%;
+    height:2%;
+    border-bottom: 1px solid black;
+    margin: 1% 40% 1% 40%;
+}
+
+#services_p, #service_header{
+    font-family: "Times New Roman",Times,serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    font-family: Open Sans;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 2.4em;
+    letter-spacing: .065em;
+    text-rendering: optimizeLegibility;
+    width: 100%;
+}
+#service_header{
+    margin: 1%;
+    display: inline-block;
+    padding-left:1%;
+    font-style: normal;
+    border: 1px solid black;
+    display: inline-block;
+}
+#services{
+    width: 50%;
+    margin:2% 25% 2% 25%;
 }
