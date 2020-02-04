@@ -285,33 +285,35 @@ body {
   padding: 0px 4% 0px 4%;
   
 }
-.icon{
-    width: 70px;
-    height: 70px;
-    display: inline-block;
-    margin-left:15px;
-    
-}
+
 #contact{
     background-color: #F5F6F8;
     border-top: 1px solid black;
 }
 #icon{
-    font-size: 3.0em;
+    font-size: 2vw;
     text-decoration: none;
     color: white;
+    margin:0px;
+    padding:0px;
+    margin-left:42%;
 }
 #icon4{
-    font-size: 2.9em;
+    font-size: 2vw;
     text-decoration: none;
     color: white;
+    margin:0px;
+    padding:0px;
+    margin-left:42%;
 
 }
 #iconss{
-    padding-left:38%;
+margin-left:40%;
 }
 a{
     text-decoration: none;
+    margin:0px;
+    padding:0px;
 }
 @-webkit-keyframes wobble {
     16.65% {
