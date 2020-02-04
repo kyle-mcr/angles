@@ -11,8 +11,8 @@
     <div class="header">
       <img id="logo" src="../../assets/img/altlogo.png" />
       <div id="links">
-        <button class="page-link" (click)="goToDestination('home')">
-          BOOKING + PRICING
+        <button class="page-link" (click)="goToDestination('services')">
+          SERVICES + PRICING
         </button>
         <button class="page-link" (click)="goToDestination('our_team')">
           STYLISTS
@@ -68,7 +68,7 @@
           Services.
         </p>
       </div>
-      <button id="view_services" type="button" class="btn btn-outline-dark">
+      <button id="view_services" type="button" [routerLink]="['/services']" class="btn btn-outline-dark">
         View Services
       </button>
     </div>
@@ -274,9 +274,9 @@
         </h1>
         <p class="contact_content">Monday | By Request</p>
         <p class="contact_content">Tuesday - Wednesday | 9am - 6pm</p>
-        <p class="contact_content">Thursday | 9am - 8pm</p>
+        <p class="contact_content">Thursday | 9am - 7pm</p>
         <p class="contact_content">Friday | 9am - 7pm</p>
-        <p class="contact_content">Saturday | 9am - 6pm</p>
+        <p class="contact_content">Saturday | 9am - 5pm</p>
         <p class="contact_content">Sunday | By Request</p>
       </div>
       <div id="iconss">

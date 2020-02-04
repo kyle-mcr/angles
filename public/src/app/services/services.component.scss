@@ -1,0 +1,96 @@
+
+.services_p,
+#service_header,
+.services_p2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 1.25em;
+  letter-spacing: 0em;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 2.4em;
+  letter-spacing: 0.065em;
+  text-rendering: optimizeLegibility;
+  width: 100%;
+  text-align: center;
+}
+#logo {
+    width: 19%;
+    height: 10%;
+    margin-left:40%;
+    margin-top:1%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #view_services {
+    margin: 0px 40% 0px 40%;
+    width: 20%;
+    display: inline-block;
+    font-size: 1vw;
+    font-style: italic;
+  }
+  .block {
+    width: 20%;
+    height: 2%;
+    border-bottom: 1px solid black;
+    margin: 4% 40% 1% 40%;
+  }
+  #service_header{
+      font-style:normal;
+      font-size: 2.0vw;
+      margin-top:7%;
+      
+  }
+.image1,
+.image2,
+.image3 {
+  width: 30%;
+  margin-top: 2%;
+  margin-left: 2.5%;
+  height: 100%;
+  display: inline-block;
+}
+.shop {
+  height: 100%;
+  width: 100%;
+}
+.contact_content, .contact_content2, .contact_content1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    color: #999999;
+    font-size: 1vw;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    font-family: Open Sans;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2.4em;
+    letter-spacing: 0.06em;
+    text-rendering: optimizeLegibility;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align:right;
+    display:inline-block;
+  }
+  .contact_content1{
+      text-align: left;
+  }
+  
+  .contact_content2{
+      font-style: italic;
+      margin-bottom:5%;
+      text-align: left;
+  }
+  #pricing, #pricing2 {
+    width: 20%;
+    margin-left: 1%;
+    margin-top: 4%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #pricing{
+    margin-left: 30%;
+  }
