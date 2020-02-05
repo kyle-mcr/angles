@@ -353,27 +353,30 @@ body {
     color: white;
     margin:0px;
     padding:0px;
+    display:inline-block;
 }
 #icon4{
     font-size: 2vw;
     text-decoration: none;
     color: white;
     padding:0px;
+    display:inline-block;
 
 }
 #iconss{
 padding:0px;
 display:inline-block;
-margin-left:42%;
+margin-left:43%;
+max-height:5%;
+width:15%;
 }
 a{
     text-decoration: none;
     margin:0px;
     padding:0px;
+    display:inline-block;
 }
-.wobble{
-  width:2%;
-}
+
 @-webkit-keyframes wobble {
     16.65% {
       -webkit-transform: translateY(8px);
@@ -436,11 +439,12 @@ a{
   
   .wobble {
     display: inline-block;
-    margin-left:5vh;
+    margin-left:11%;
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+ 
   }
   
   .wobble:hover {
@@ -453,3 +457,4 @@ a{
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
   }
+  
