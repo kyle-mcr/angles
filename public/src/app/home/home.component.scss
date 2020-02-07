@@ -230,7 +230,8 @@ body {
 .services_p,
 #service_header,
 .services_p2,
-.services_p3, .services_p4 {
+.services_p3,
+.services_p4 {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.4vw;
   line-height: 1.25em;
@@ -244,9 +245,9 @@ body {
   width: 100%;
   text-align: center;
 }
-.services_p4{
-  font-size: .7vw;
-  margin-top:8%;
+.services_p4 {
+  font-size: 0.7vw;
+  margin-top: 8%;
 }
 #service_header {
   display: inline-block;
@@ -466,7 +467,7 @@ a {
     padding: 1px 1px;
     color: black;
     transition: 0.5s;
-    font-size: 2.1vw;
+    font-size: 2.5vw;
     margin-top: 2%;
     border-color: transparent;
     display: inline-block;
@@ -478,16 +479,16 @@ a {
     letter-spacing: 0.02em;
     display: inline-block;
     margin-left: 3%;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 450;
     font-family: "Times New Roman", Times, serif;
   }
   #links {
     position: fixed;
-    left: 22%;
+    left: 6%;
     top: 2%;
     display: inline-block;
-    width: 67%;
+    width: 100%;
     z-index: 1000;
   }
   #name,
@@ -622,7 +623,8 @@ a {
     border-bottom: 1px solid black;
     margin: 1% 40% 15% 35%;
   }
-  .container, .container2 {
+  .container,
+  .container2 {
     width: 75%;
     height: 100%;
     position: relative;
@@ -678,7 +680,7 @@ a {
     display: inline-block;
     font-family: Arial, sans-serif;
     font-weight: 400;
-    font-size: 3vw;
+    font-size: 4.6vw;
     line-height: 1.25em;
     letter-spacing: 0em;
     text-transform: none;
@@ -689,13 +691,13 @@ a {
     letter-spacing: 0.25em;
     color: white;
     width: 100%;
-    padding: 13% 5% 5% 35%;
+    padding: 13% 5% 5% 25%;
   }
   .contact_title {
     display: inline-block;
     font-family: Arial, sans-serif;
     font-weight: 400;
-    font-size: 1.7vw;
+    font-size: 2vw;
     line-height: 1.25em;
     letter-spacing: 0em;
     text-transform: none;
@@ -713,7 +715,7 @@ a {
     font-family: "Times New Roman", Times, serif;
     font-weight: 400;
     color: #999999;
-    font-size: 1.4vw;
+    font-size: 1.8vw;
     line-height: 1.2em;
     letter-spacing: 0em;
     font-family: Open Sans;
@@ -756,6 +758,7 @@ a {
     margin-left: 37%;
     max-height: 5%;
     width: 22%;
+    margin-top: 10%;
   }
   a {
     text-decoration: none;
@@ -763,5 +766,13 @@ a {
     padding: 0px;
     display: inline-block;
   }
-  
+  #logo,
+  #topright,
+  #name,
+  #number {
+    display: none;
+  }
+  #carouselExampleSlidesOnly {
+    margin-top: 12%;
+  }
 }
