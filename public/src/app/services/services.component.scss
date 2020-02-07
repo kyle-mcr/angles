@@ -71,7 +71,6 @@
     letter-spacing: 0.06em;
     text-rendering: optimizeLegibility;
     width: 100%;
-    margin: 0px;
     padding: 0px;
     text-align:right;
     display:inline-block;
@@ -86,12 +85,81 @@
       text-align: left;
   }
   #pricing, #pricing2 {
-    width: 20%;
-    margin-left: 1%;
+    width: 15%;
+    margin-left: 0%;
     margin-top: 4%;
     display: inline-block;
     vertical-align: top;
+    margin-bottom:13%;
+  }
+  #pricing2{
+    margin-left:4%;
   }
   #pricing{
-    margin-left: 30%;
+    margin-left: 14%;
+    width: 35%;
+  }
+  @media only screen and (max-width: 600px) {
+    .contact_content, .contact_content2, .contact_content1 {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 400;
+      color: #999999;
+      font-size: 3.0vw;
+      line-height: 1.2em;
+      letter-spacing: 0em;
+      font-family: Open Sans;
+      font-weight: 500;
+      font-style: normal;
+      line-height: 2.4em;
+      letter-spacing: 0.02em;
+      text-rendering: optimizeLegibility;
+      width: 100%;
+      margin: 0px 0px 15% 0px;
+      padding: 0px;
+      text-align:right;
+      display:inline-block;
+    }
+    #service_header{
+      font-style:normal;
+      font-size: 4.2vw;
+      margin-top:7%;
+      
+  }
+  .block {
+    width: 30%;
+    height: 2%;
+    border-bottom: 1px solid black;
+    margin: 10% 40% 15% 35%;
+  }
+  #logo {
+    width: 35%;
+    height: 10%;
+    margin-left:32%;
+    margin-top:1%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .image1,
+  .image2 {
+    width: 49%;
+    margin-top: 2%;
+    margin-left: 2.5%;
+    height: 100%;
+    display: inline-block;
+  }
+  .image1 {
+    padding: 0%;
+    margin: 0%;
+  }
+  .image2 {
+    padding: 0%;
+    margin: 0 0% 0% 2%;
+  }
+  .image3 {
+    width: 49%;
+    margin-top: 2%;
+    margin-left: 25%;
+    height: 100%;
+    display: inline-block;
+  }
   }
